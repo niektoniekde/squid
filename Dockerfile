@@ -1,4 +1,4 @@
-FROM docker.io/alpine:3.16
+FROM docker.io/alpine:latest
 
 # install squid and bash packages
 RUN apk --no-cache add squid bash
