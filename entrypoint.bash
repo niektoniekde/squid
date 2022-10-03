@@ -12,4 +12,4 @@ if ! [[ -d ${CDMPD} ]]; then
   mkdir /srv/data/coredump
 fi
 
-/usr/sbin/squid -N -f "/usr/local/etc/squid/squid.conf"
+exec /usr/sbin/squid -N -f "/usr/local/etc/squid/squid.conf"
